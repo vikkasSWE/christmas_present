@@ -33,6 +33,13 @@ body {
 
 }
 
+.header i {
+    font-size: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 .present {
     width: 410px;
     margin: 0 auto;
@@ -140,4 +147,15 @@ body {
 .name p {
     font-size: 24px;
     margin: 0;
+}
+
+
+.sites {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+#present_delivery {
+    padding: 10%;
 }
