@@ -12,8 +12,25 @@ body {
 #wrapper {
     display: grid;
     grid-template-columns: repeat(2, 20fr);
-    grid-template-rows: repeat(2, 20fr);
+    grid-template-rows: repeat(1, 20fr);
     grid-gap: 50px;
+}
+
+.header {
+    font-size: 30px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 8%;
+}
+
+.header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header p {
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .present {
@@ -107,4 +124,20 @@ body {
 
 .present:hover .promo {
     top: -80px;
+}
+
+.name {
+    font-size: 30px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    height: 0;
+    top: 10px;
+    transition: all ease-out 0.7s;
+}
+
+.name p {
+    font-size: 24px;
+    margin: 0;
 }
