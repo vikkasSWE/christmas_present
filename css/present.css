@@ -9,6 +9,13 @@ body {
     place-items: center;
 }
 
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 20fr);
+    grid-template-rows: repeat(2, 20fr);
+    grid-gap: 100px;
+}
+
 .present {
     width: 410px;
     margin: 0 auto;
