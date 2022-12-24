@@ -4,17 +4,17 @@ const present_hampus = document.getElementById("present_hampus");
 const present_wilma = document.getElementById("present_wilma");
 
 present_alex.onclick = function (e) {
-    window.alert("hello alex")
+    window.location = "alex.html"
 }
 
 present_oliver.onclick = function (e) {
-    window.alert("hello oliver")
+    window.location = "oliver.html"
 }
 
 present_hampus.onclick = function (e) {
-    window.alert("hello hampus")
+    window.location = "hampus.html"
 }
 
 present_wilma.onclick = function (e) {
-    window.alert("hello wilma")
+    window.location = "wilma.html"
 }

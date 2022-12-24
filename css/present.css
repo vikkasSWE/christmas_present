@@ -13,7 +13,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 20fr);
     grid-template-rows: repeat(2, 20fr);
-    grid-gap: 100px;
+    grid-gap: 50px;
 }
 
 .present {
@@ -45,7 +45,6 @@ body {
     z-index: 1;
     padding: 0 2px;
     background-color: rgb(216, 52, 52);
-    /* transitions */
     top: 0;
     left: 0;
     transition:
@@ -100,7 +99,6 @@ body {
     margin: 0;
 }
 
-/* hover effects */
 .present:hover .lid {
     top: -100px;
     transform: rotateZ(10deg);
